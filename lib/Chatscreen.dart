@@ -23,7 +23,7 @@ class _ChatScreenState extends State<ChatScreen> {
   String responseText = "";
 
   Future<String> generateResponse() async {
-    String apiKey = "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";
+    String apiKey = "SECRET_KEY";
     String url = "https://api.openai.com/v1/chat/completions";
     var headers = {
       "Content-Type": "application/json",
